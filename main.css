@@ -4,9 +4,36 @@
 
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main-header {
     background-color: #2ddf5c;
     padding: 8px 16px;
+}
+
+.main-header__logo,
+.main-nav {
+    display: inline-block;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0e4f1f;
+}
+
+.main-nav {
+    text-align: right;
+    width: calc(100% - 60px);
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
 }
