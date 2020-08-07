@@ -10,19 +10,19 @@ body {
 
 .boxes-container {
     height: 100%;
-}
-
-.boxes-container>div:first-of-type {
-    height: 300px;
-    width: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .box {
     display: inline-block;
+    height: 300px;
+    width: 48%;
+    box-sizing: border-box;
 }
 
 .box {
-    margin: 5px 10px 15px 20px;
+    margin: 10px 5px;
     padding: 10px 5px 20px 15px;
     border: 5px solid black;
 }
