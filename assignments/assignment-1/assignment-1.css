@@ -1,0 +1,33 @@
+html {
+    height: 99%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.boxes-container {
+    height: 100%;
+}
+
+.boxes-container>div:first-of-type {
+    height: 300px;
+    width: 50%;
+}
+
+.box {
+    display: inline-block;
+}
+
+.box {
+    margin: 5px 10px 15px 20px;
+    padding: 10px 5px 20px 15px;
+    border: 5px solid black;
+}
+
+.boxes-container div:last-of-type:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
