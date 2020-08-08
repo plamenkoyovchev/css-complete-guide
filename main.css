@@ -83,6 +83,11 @@ body {
     text-align: center;
 }
 
+.plan-items {
+    display: flex;
+    justify-content: center;
+}
+
 .plan {
     background: #d5ffdc;
     text-align: center;
