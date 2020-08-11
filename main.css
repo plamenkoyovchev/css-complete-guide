@@ -161,3 +161,44 @@ body {
     /* Outline is not part of the box model */
     outline: none;
 }
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.key-feature {
+    display: inline-block;
+    padding: 20px;
+    width: 33%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
