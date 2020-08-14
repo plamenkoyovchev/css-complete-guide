@@ -34,7 +34,7 @@ main {
 
 .package-free:hover,
 .package-free:active {
-    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
+    box-shadow: -2px 2px 4px rgb(0, 0, 0, 0.5);
     border-left: 4px solid red;
     border-right: none;
 }
