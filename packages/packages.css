@@ -11,6 +11,7 @@ main {
 
 .package:hover,
 .package:active {
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.5);
     border: 4px solid red;
     border-left: none;
 }
@@ -35,15 +36,15 @@ main {
 }
 
 .package a h2 {
-    color: #858585;
+    color: #979797;
+}
+
+.package-premium a h2 {
+    color: #bbb;
 }
 
 .package-premium h1 {
     color: white;
-}
-
-.package-premium a h2 {
-    color: #959595;
 }
 
 .package-description {
