@@ -1,3 +1,11 @@
+.background {
+    background: url("../images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 main {
     padding-top: 32px;
 }
@@ -21,11 +29,11 @@ main {
 }
 
 .package-plus {
-    background: #d9fcde;
+    background: rgba(217, 252, 222, .9)
 }
 
 .package-free {
-    background: #edfaef;
+    background: rgba(237, 250, 239, .9);
     float: right;
     border-right: none;
     border-left: 4px solid black;
@@ -40,7 +48,7 @@ main {
 }
 
 .package-premium {
-    background: #0e4f1f;
+    background: rgba(14, 79, 31, .9);
 }
 
 .package a {
