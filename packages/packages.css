@@ -6,10 +6,6 @@
     z-index: -1;
 }
 
-main {
-    padding-top: 48px;
-}
-
 .package {
     margin: 16px 0px;
     border: 4px solid black;
