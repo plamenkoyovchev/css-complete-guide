@@ -1,3 +1,7 @@
+main {
+    padding-top: 48px;
+}
+
 .background {
     background: url("../images/plans-background.jpg");
     width: 100%;
@@ -81,6 +85,7 @@
     font-size: 12px;
     background: #ff5454;
     padding: 8px;
+    z-index: inherit;
 }
 
 .package h2.package-badge {
