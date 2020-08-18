@@ -19,8 +19,8 @@ body {
 #product-overview h1 {
     position: absolute;
     margin: 0;
-    left: 10px;
-    bottom: 10px;
+    left: 3%;
+    bottom: 5%;
 }
 
 .main-header {
