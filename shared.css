@@ -20,7 +20,7 @@ body {
 
 .main-header {
     background-color: #2ddf5c;
-    padding: 16px 16px;
+    padding: 1rem 1rem;
     width: 100%;
     position: fixed;
     top: 0;
@@ -39,7 +39,7 @@ body {
     font-weight: bold;
     color: #0e4f1f;
     font-size: 1.4rem;
-    height: 22px;
+    height: 1.4rem;
     display: inline-block;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .main-nav {
     text-align: right;
-    width: calc(100% - 60px);
+    width: calc(100% - 3.8rem);
 }
 
 .main-nav__items {
@@ -60,14 +60,14 @@ body {
 
 .main-nav__item {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 0.6rem;
 }
 
 .main-nav__item>a {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    padding: 3px 0;
+    padding: 0.2rem 0;
 }
 
 .main-nav__item>a:hover {
@@ -82,8 +82,8 @@ body {
 .main-nav__item--cta>a {
     color: white;
     background-color: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
 }
 
 .main-nav__item--cta>a:hover,
@@ -99,8 +99,8 @@ body {
     font: inherit;
     font-weight: bold;
     border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
 
@@ -118,8 +118,8 @@ body {
 
 .main-footer {
     background: black;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer__links {
@@ -131,7 +131,7 @@ body {
 
 .main-footer__link {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer__link a {
