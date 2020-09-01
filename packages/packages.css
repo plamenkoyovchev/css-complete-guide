@@ -82,7 +82,7 @@ main {
     top: 0;
     right: 0;
     margin: 20px;
-    font-size: 12px;
+    font-size: 1rem;
     background: #ff5454;
     padding: 8px;
     z-index: inherit;
