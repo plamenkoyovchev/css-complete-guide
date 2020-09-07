@@ -3,12 +3,12 @@
         url("images/freedom.jpg"),
         #ff1b68;
     background-size: cover;
-    background-position: left 10% top 40%;
+    background-position: left 10% bottom 78%;
     background-repeat: no-repeat;
     background-origin: border-box;
     background-clip: border-box;
-    width: 100%;
-    height: 33rem;
+    width: 100vw;
+    height: 60vh;
     padding: 0.8rem;
     margin-top: 2rem;
     position: relative;
