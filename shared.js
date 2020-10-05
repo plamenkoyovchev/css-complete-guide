@@ -10,7 +10,11 @@ const attachEventHandlers = () => {
         closeModal();
         hideSideNavigation();
     });
-    noButton.addEventListener('click', closeModal);
+
+    if (noButton) {
+        noButton.addEventListener('click', closeModal);
+    }
+
     selectPlanButtons.forEach(button => {
         button.addEventListener('click', showModal);
     });
@@ -18,22 +22,25 @@ const attachEventHandlers = () => {
 };
 
 const showSidebarNavigation = () => {
-    sideNav.style.display = 'block';
-    backdrop.style.display = 'block';
+    sideNav.classList.add('open');
+    backdrop.classList.add('open');
 };
 
 const hideSideNavigation = () => {
-    sideNav.style.display = 'none';
-};
-
-const closeModal = () => {
-    backdrop.style.display = 'none';
-    modal.style.display = 'none';
+    sideNav.classList.remove('open');
 };
 
 const showModal = () => {
-    backdrop.style.display = 'block';
-    modal.style.display = 'block';
+    backdrop.classList.add('open');
+    modal.classList.add('open');
+};
+
+const closeModal = () => {
+    backdrop.classList.remove('open');
+
+    if (modal) {
+        modal.classList.remove('open');
+    }
 };
 
 attachEventHandlers();
