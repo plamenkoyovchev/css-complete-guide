@@ -248,3 +248,7 @@ body {
     background: #ff5454;
     background-color: #ff5454;
 }
+
+.open {
+    display: block;
+}
